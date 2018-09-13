@@ -1,0 +1,16 @@
+<application>
+  <component name="HgGlobalSettings">
+    <option name="myHgExecutable" value="/usr/bin/hg" />
+    <option name="myRememberedUserNames">
+      <map>
+        <entry key="mercurial.antevenio.com/antevenio.reputation" value="imota" />
+        <entry key="mercurial.antevenio.com/libraries/beanstalk" value="imota" />
+        <entry key="mercurial.antevenio.com/mdirector" value="imota" />
+        <entry key="mercurial.antevenio.com/mdirector-front" value="imota" />
+        <entry key="mercurial.antevenio.com/mdirector.backend" value="imota" />
+        <entry key="mercurial.antevenio.com/mdirector.dev" value="imota" />
+        <entry key="mercurial.antevenio.com/senderdaemon" value="imota" />
+      </map>
+    </option>
+  </component>
+</application>
