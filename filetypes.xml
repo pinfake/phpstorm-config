@@ -9,7 +9,9 @@
       <mapping pattern="WorkerException" type="PHP" />
       <mapping pattern="Environment" type="PLAIN_TEXT" />
       <mapping pattern="php56fpm" type="PLAIN_TEXT" />
+      <mapping pattern="php73-debian9" type="PLAIN_TEXT" />
       <mapping pattern="php-70" type="PLAIN_TEXT" />
+      <mapping pattern="debian8-php73" type="PLAIN_TEXT" />
       <mapping pattern="debian8-supervisord" type="PLAIN_TEXT" />
       <mapping pattern="variables" type="PLAIN_TEXT" />
       <mapping pattern="php72-d9" type="PLAIN_TEXT" />
