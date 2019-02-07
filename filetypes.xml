@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern="mdBouncingMarker" type="JavaScript" />
+      <mapping pattern="TooManyRequestsException" type="PHP" />
       <mapping pattern="InvalidPhoneNumberException" type="PHP" />
       <mapping pattern="phpunit" type="PHP" />
       <mapping pattern="EntityAccessLevel" type="PHP" />
