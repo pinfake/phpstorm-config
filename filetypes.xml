@@ -21,6 +21,7 @@
       <mapping pattern="sfdgdsfg" type="PLAIN_TEXT" />
       <mapping pattern="credentials" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
+      <mapping pattern="puppeteer" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="debian8-php56fpm" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
