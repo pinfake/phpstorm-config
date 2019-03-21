@@ -212,7 +212,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="71f56793-64fa-4c87-b0c5-fb5261f9e543" load_method="CUSTOM_LOADER" configuration_file_path="/opt/project/tests/phpunit.xml" custom_loader_path="/opt/project/library/Composer/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="71f56793-64fa-4c87-b0c5-fb5261f9e543" load_method="CUSTOM_LOADER" configuration_file_path="/opt/project/tests/phpunit-devel.xml" custom_loader_path="/opt/project/library/Composer/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
