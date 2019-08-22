@@ -10,10 +10,10 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/bin/php" id="e4de18f9-2427-4fc4-8a55-c4b0266d9f76" name="Arch default" debugger_id="php.debugger.XDebug" />
-      <interpreter home="/bin/php" id="ad702fd9-be36-401a-9501-bb7c0d49330f" name="php-cgi" debugger_id="php.debugger.XDebug" />
-      <interpreter home="docker://docker-registry.antevenio.local:5000/docker-gitlab-runner:php5/php" id="71f56793-64fa-4c87-b0c5-fb5261f9e543" name="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter id="e4de18f9-2427-4fc4-8a55-c4b0266d9f76" name="Arch default" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="ad702fd9-be36-401a-9501-bb7c0d49330f" name="php-cgi" home="/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="71f56793-64fa-4c87-b0c5-fb5261f9e543" name="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
       </interpreter>
     </interpreters>
   </component>
@@ -212,7 +212,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="71f56793-64fa-4c87-b0c5-fb5261f9e543" load_method="CUSTOM_LOADER" configuration_file_path="/opt/project/tests/phpunit-devel.xml" custom_loader_path="/opt/project/library/Composer/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="71f56793-64fa-4c87-b0c5-fb5261f9e543" load_method="CUSTOM_LOADER" configuration_file_path="/opt/project/tests/phpunit-devel.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
