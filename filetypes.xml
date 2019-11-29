@@ -12,6 +12,7 @@
       <mapping pattern="mdirector" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="Environment" type="PLAIN_TEXT" />
+      <mapping pattern="cli" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="none" type="PLAIN_TEXT" />
       <mapping pattern="inputfile" type="PLAIN_TEXT" />
