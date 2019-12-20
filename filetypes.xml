@@ -12,14 +12,14 @@
       <mapping pattern="mdirector" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="Environment" type="PLAIN_TEXT" />
+      <mapping pattern="puppeteer" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
       <mapping pattern="none" type="PLAIN_TEXT" />
       <mapping pattern="inputfile" type="PLAIN_TEXT" />
       <mapping pattern="cli" type="PLAIN_TEXT" />
       <mapping pattern="variables" type="PLAIN_TEXT" />
-      <mapping pattern="sfdgdsfg" type="PLAIN_TEXT" />
       <mapping pattern="debian8-php56fpm" type="PLAIN_TEXT" />
-      <mapping pattern="puppeteer" type="PLAIN_TEXT" />
+      <mapping pattern="sfdgdsfg" type="PLAIN_TEXT" />
       <mapping pattern="debian8-php73" type="PLAIN_TEXT" />
       <mapping pattern="php-70" type="PLAIN_TEXT" />
       <mapping pattern="php72-d9" type="PLAIN_TEXT" />
