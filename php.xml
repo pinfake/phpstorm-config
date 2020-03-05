@@ -441,7 +441,7 @@
       <phpunit_by_interpreter interpreter_id="71f56793-64fa-4c87-b0c5-fb5261f9e543" configuration_file_path="/opt/project/tests/phpunit-devel.xml" custom_loader_path="/opt/project/library/Composer/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
       <phpunit_by_interpreter interpreter_id="31239e07-e0cc-403a-b2b4-92c521f4fc74" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" />
       <phpunit_by_interpreter interpreter_id="514b30a2-2391-4e98-9ddd-d43902b81636" configuration_file_path="/opt/project/phpunit.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
-      <phpunit_by_interpreter interpreter_id="54c616e9-4e11-4167-bca3-ddfc9859988f" configuration_file_path="/opt/project/tests/phpunit-devel.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="54c616e9-4e11-4167-bca3-ddfc9859988f" configuration_file_path="/opt/project/tests/phpunit-devel.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" />
     </phpunit_settings>
   </component>
 </application>
