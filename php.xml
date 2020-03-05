@@ -17,24 +17,28 @@
       <interpreter id="514b30a2-2391-4e98-9ddd-d43902b81636" name="labsphp7" home="docker://DATA" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner-labs:php7" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
       </interpreter>
+      <interpreter id="54c616e9-4e11-4167-bca3-ddfc9859988f" name="docker-registry.antevenio.local:5000/docker-gitlab-runner:php73" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php73" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="php-cgi">
-        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php" path_separator=":" version="7.2.1">
-          <additional_php_ini>/etc/php/conf.d/redis.ini, /etc/php/conf.d/xdebug.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php" path_separator=":" version="7.4.3">
+          <additional_php_ini>/etc/php/conf.d/igbinary.ini, /etc/php/conf.d/mailparse.ini, /etc/php/conf.d/oauth.ini, /etc/php/conf.d/redis.ini, /etc/php/conf.d/xdebug.ini</additional_php_ini>
           <configuration_file>/etc/php/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/share/pear" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.6.0beta1">
+            <debugger_info debugger="xdebug" debugger_version="2.9.2">
               <debug_extensions />
             </debugger_info>
           </debuggers>
           <loaded_extensions>
             <extension name="Core" />
+            <extension name="OAuth" />
             <extension name="PDO" />
             <extension name="Phar" />
             <extension name="Reflection" />
@@ -48,9 +52,11 @@
             <extension name="dom" />
             <extension name="fileinfo" />
             <extension name="filter" />
+            <extension name="gd" />
             <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="igbinary" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="libxml" />
@@ -63,7 +69,6 @@
             <extension name="pdo_sqlite" />
             <extension name="posix" />
             <extension name="readline" />
-            <extension name="redis" />
             <extension name="session" />
             <extension name="soap" />
             <extension name="sockets" />
@@ -154,14 +159,14 @@
         </phpinfo>
       </interpreter>
       <interpreter name="Arch default">
-        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php" path_separator=":" version="7.3.9">
+        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php" path_separator=":" version="7.4.3">
           <additional_php_ini>/etc/php/conf.d/igbinary.ini, /etc/php/conf.d/mailparse.ini, /etc/php/conf.d/oauth.ini, /etc/php/conf.d/redis.ini, /etc/php/conf.d/xdebug.ini</additional_php_ini>
           <configuration_file>/etc/php/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/share/pear" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.7.2">
+            <debugger_info debugger="xdebug" debugger_version="2.9.2">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -281,6 +286,77 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
+      <interpreter name="docker-registry.antevenio.local:5000/docker-gitlab-runner:php73">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.3" path_separator=":" version="7.3.0-1+0~20181206202713.23+stretch~1.gbp076afd">
+          <additional_php_ini>/etc/php/7.3/cli/conf.d/10-mysqlnd.ini, /etc/php/7.3/cli/conf.d/10-opcache.ini, /etc/php/7.3/cli/conf.d/10-pdo.ini, /etc/php/7.3/cli/conf.d/15-xml.ini, /etc/php/7.3/cli/conf.d/20-bcmath.ini, /etc/php/7.3/cli/conf.d/20-calendar.ini, /etc/php/7.3/cli/conf.d/20-ctype.ini, /etc/php/7.3/cli/conf.d/20-curl.ini, /etc/php/7.3/cli/conf.d/20-dom.ini, /etc/php/7.3/cli/conf.d/20-exif.ini, /etc/php/7.3/cli/conf.d/20-fileinfo.ini, /etc/php/7.3/cli/conf.d/20-ftp.ini, /etc/php/7.3/cli/conf.d/20-gd.ini, /etc/php/7.3/cli/conf.d/20-gettext.ini, /etc/php/7.3/cli/conf.d/20-iconv.ini, /etc/php/7.3/cli/conf.d/20-igbinary.ini, /etc/php/7.3/cli/conf.d/20-intl.ini, /etc/php/7.3/cli/conf.d/20-json.ini, /etc/php/7.3/cli/conf.d/20-mbstring.ini, /etc/php/7.3/cli/conf.d/20-mysqli.ini, /etc/php/7.3/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.3/cli/conf.d/20-pdo_sqlite.ini, /etc/php/7.3/cli/conf.d/20-phar.ini, /etc/php/7.3/cli/conf.d/20-posix.ini, /etc/php/7.3/cli/conf.d/20-readline.ini, /etc/php/7.3/cli/conf.d/20-redis.ini, /etc/php/7.3/cli/conf.d/20-shmop.ini, /etc/php/7.3/cli/conf.d/20-simplexml.ini, /etc/php/7.3/cli/conf.d/20-sockets.ini, /etc/php/7.3/cli/conf.d/20-sqlite3.ini, /etc/php/7.3/cli/conf.d/20-sysvmsg.ini, /etc/php/7.3/cli/conf.d/20-sysvsem.ini, /etc/php/7.3/cli/conf.d/20-sysvshm.ini, /etc/php/7.3/cli/conf.d/20-tokenizer.ini, /etc/php/7.3/cli/conf.d/20-wddx.ini, /etc/php/7.3/cli/conf.d/20-xdebug.ini, /etc/php/7.3/cli/conf.d/20-xmlreader.ini, /etc/php/7.3/cli/conf.d/20-xmlwriter.ini, /etc/php/7.3/cli/conf.d/20-xsl.ini, /etc/php/7.3/cli/conf.d/20-zip.ini</additional_php_ini>
+          <configuration_file>/etc/php/7.3/cli/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/usr/share/php" />
+          </configuration_options>
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.0beta1">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="bcmath" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="gettext" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="igbinary" />
+            <extension name="inotify" />
+            <extension name="intl" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcntl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="redis" />
+            <extension name="session" />
+            <extension name="shmop" />
+            <extension name="sockets" />
+            <extension name="sodium" />
+            <extension name="sqlite3" />
+            <extension name="standard" />
+            <extension name="sysvmsg" />
+            <extension name="sysvsem" />
+            <extension name="sysvshm" />
+            <extension name="tokenizer" />
+            <extension name="wddx" />
+            <extension name="xdebug" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
       <interpreter name="phpunit con autoload en vendor">
         <phpinfo binary_type="PHP" php_cli="/usr/bin/php5" path_separator=":" version="5.6.38-0+deb8u1">
           <additional_php_ini>/etc/php5/cli/conf.d/05-opcache.ini, /etc/php5/cli/conf.d/10-mysqlnd.ini, /etc/php5/cli/conf.d/10-pdo.ini, /etc/php5/cli/conf.d/20-curl.ini, /etc/php5/cli/conf.d/20-gd.ini, /etc/php5/cli/conf.d/20-intl.ini, /etc/php5/cli/conf.d/20-json.ini, /etc/php5/cli/conf.d/20-mcrypt.ini, /etc/php5/cli/conf.d/20-memcache.ini, /etc/php5/cli/conf.d/20-memcached.ini, /etc/php5/cli/conf.d/20-mysql.ini, /etc/php5/cli/conf.d/20-mysqli.ini, /etc/php5/cli/conf.d/20-pdo_mysql.ini, /etc/php5/cli/conf.d/20-pdo_sqlite.ini, /etc/php5/cli/conf.d/20-readline.ini, /etc/php5/cli/conf.d/20-redis.ini, /etc/php5/cli/conf.d/20-sqlite3.ini, /etc/php5/cli/conf.d/20-xdebug.ini</additional_php_ini>
@@ -365,6 +441,7 @@
       <phpunit_by_interpreter interpreter_id="71f56793-64fa-4c87-b0c5-fb5261f9e543" configuration_file_path="/opt/project/tests/phpunit-devel.xml" custom_loader_path="/opt/project/library/Composer/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
       <phpunit_by_interpreter interpreter_id="31239e07-e0cc-403a-b2b4-92c521f4fc74" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" />
       <phpunit_by_interpreter interpreter_id="514b30a2-2391-4e98-9ddd-d43902b81636" configuration_file_path="/opt/project/phpunit.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="54c616e9-4e11-4167-bca3-ddfc9859988f" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" />
     </phpunit_settings>
   </component>
 </application>
