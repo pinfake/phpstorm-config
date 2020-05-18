@@ -6,8 +6,8 @@
       <mapping pattern="TooManyRequestsException" type="PHP" />
       <mapping pattern="InvalidPhoneNumberException" type="PHP" />
       <mapping pattern="WorkerException" type="PHP" />
-      <mapping pattern="phpunit" type="PHP" />
       <mapping pattern="EntityAccessLevel" type="PHP" />
+      <mapping pattern="phpunit" type="PHP" />
       <mapping pattern="php-70" type="PLAIN_TEXT" />
       <mapping pattern="Environment" type="PLAIN_TEXT" />
       <mapping pattern="php56fpm" type="PLAIN_TEXT" />
@@ -20,20 +20,20 @@
       <mapping pattern="mdirector" type="PLAIN_TEXT" />
       <mapping pattern="sfdgdsfg" type="PLAIN_TEXT" />
       <mapping pattern="cli" type="PLAIN_TEXT" />
+      <mapping pattern="credentials" type="PLAIN_TEXT" />
       <mapping pattern="puppeteer" type="PLAIN_TEXT" />
       <mapping pattern="id_rsa" type="PLAIN_TEXT" />
       <mapping pattern="inputfile" type="PLAIN_TEXT" />
       <mapping pattern="debian8-supervisord" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
-      <mapping pattern="credentials" type="PLAIN_TEXT" />
       <mapping ext="ci" type="PLAIN_TEXT" />
-      <mapping ext="backup" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="pin" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping ext="backup" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="Jenkinsfile" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="groovy" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
