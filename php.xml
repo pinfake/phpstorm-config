@@ -9,16 +9,16 @@
       <interpreter id="e4de18f9-2427-4fc4-8a55-c4b0266d9f76" name="Arch default" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="ad702fd9-be36-401a-9501-bb7c0d49330f" name="php-cgi" home="/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="71f56793-64fa-4c87-b0c5-fb5261f9e543" name="Remote runner 5.6" home="docker://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
       <interpreter id="31239e07-e0cc-403a-b2b4-92c521f4fc74" name="phpunit con autoload en vendor" home="docker://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php5" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
       <interpreter id="514b30a2-2391-4e98-9ddd-d43902b81636" name="labsphp7" home="docker://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner-labs:php7" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner-labs:php7" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
       <interpreter id="54c616e9-4e11-4167-bca3-ddfc9859988f" name="docker-registry.antevenio.local:5000/docker-gitlab-runner:php73" home="docker://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php73" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docker-registry.antevenio.local:5000/docker-gitlab-runner:php73" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
     </interpreters>
   </component>
