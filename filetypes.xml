@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list="*.orig;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs" />
     <extensionMap>
+      <mapping pattern="passwd" type="AUTO_DETECTED" />
       <mapping pattern="mdBouncingMarker" type="JavaScript" />
       <mapping pattern="EntityAccessLevel" type="PHP" />
       <mapping pattern="InvalidPhoneNumberException" type="PHP" />
