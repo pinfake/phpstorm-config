@@ -28,6 +28,7 @@
       <mapping pattern="puppeteer" type="PLAIN_TEXT" />
       <mapping pattern="debian8-supervisord" type="PLAIN_TEXT" />
       <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping ext="old" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
       <mapping ext="pin" type="PLAIN_TEXT" />
       <mapping ext="ci" type="PLAIN_TEXT" />
