@@ -10,13 +10,6 @@
   <component name="DaemonCodeAnalyzerSettings">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
   </component>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="15" />
-    <option name="FONT_FAMILY" value="Fira Code" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Light" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="Light" />
-    <option name="USE_LIGATURES" value="true" />
-  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
