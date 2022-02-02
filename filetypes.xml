@@ -5,6 +5,7 @@
       <mapping pattern=".gitkeep" type="AUTO_DETECTED" />
       <mapping pattern="passwd" type="AUTO_DETECTED" />
       <mapping pattern="61" type="AUTO_DETECTED" />
+      <mapping pattern="README" type="AUTO_DETECTED" />
       <mapping pattern=".php-cs" type="AUTO_DETECTED" />
       <mapping pattern="mdBouncingMarker" type="JavaScript" />
       <mapping pattern="EntityAccessLevel" type="PHP" />
