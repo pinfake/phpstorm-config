@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="pinfake" id="89d2bc3d-fd7e-4082-947a-6d9ee178e498">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
