@@ -2,6 +2,7 @@
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="/www/md-sms-providers.git/vendor/bin/phpcs" />
+      <phpcs_by_interpreter interpreter_id="54c616e9-4e11-4167-bca3-ddfc9859988f" beautifier_path="$USER_HOME$/work/mdirector/docker/backend/trans.backend/vendor/bin/phpcbf" tool_path="/Users/pin/work/mdirector/docker/backend/trans.backend/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
